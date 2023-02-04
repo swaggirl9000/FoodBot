@@ -1,0 +1,189 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "I need help.",
+          "Yes! I want food.",
+          "I want a recipe.",
+          "I'm hungry",
+          "I want to cook.",
+          "Recipe."
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, what would you like to eat?",
+          "How hungry are you?",
+          "What meal time is it?",
+          "What meal are you in the mood for?",
+          "Do you want a recipe or a joke?"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help! Need anything else?", "Any time! Need anything else?", "My pleasure. Still hungry?", "Need anything else?", "Still hungry?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+            "Hope I helped, bye now.",
+            "Have a nice day",
+            "Bye!",
+            "Bye-bye!",
+            "Can I offer another recipe?"
+        ]
+      },
+      {
+        "tag": "breakfast",
+        "patterns": [
+          "It's the morning.",
+          "I just woke up.",
+          "I want breakfast."
+        ],
+        "responses": [
+            "Make an omlette.",
+            "Make some spicy eggs.",
+            "Eat your favorite everything bagel.",
+            "Eat a cinammon raisin bagel.",
+            "Have some granola and yogurt.",
+            "Make some oatmeal",
+            "Go eat some cereal."
+        ]
+      },
+      {
+        "tag": "snack",
+        "patterns": [
+          "I am not that hungry.",
+          "I want something light.",
+          "I want a snack.",
+          "I am in the mood for something salty.",
+          "I want something before I eat.",
+          "I want something small."
+        ],
+        "responses": [
+            "Eat some chips.",
+            "Try a new snack from the convenience store",
+            "Have an apple.",
+            "Have some cheese and crackers.",
+            "Have some mango.",
+            "Go eat some gummy bears."
+        ]
+      },
+      {
+        "tag": "lunch",
+        "patterns": [
+          "I want lunch.",
+          "It's noon.",
+          "It's the afternoon.",
+          "It's the middle of the day.",
+          "Its after twelve."
+        ],
+        "responses": [
+          "Make a tuna salad or egg salad sandwich.",
+          "Have a salad.",
+          "Make some soup",
+          "Have a poke bowl",
+          "Make some chili: https://www.delish.com/cooking/recipe-ideas/recipes/a58719/easy-vegetarian-chili-recipe/",
+          "How about tacos? https://tasty.co/recipe/vegan-butternut-squash-al-pastor-tacos"
+        ]
+      },
+      {
+        "tag": "dessert",
+        "patterns": [
+          "I want something sweet.",
+          "I want dessert.",
+          "I just finished eating."
+        ],
+        "responses": [
+            "Have some chocolate.",
+            "Have some pudding",
+            "Go eat some dango",
+            "Have some toast with honey",
+            "Eat some ice cream."
+        ]
+      },
+      {
+        "tag": "dinner",
+        "patterns": [
+          "Yes! I want food.",
+          "I want a recipe.",
+          "I'm hungry",
+          "I want to cook.",
+          "I want dinner.",
+          "It's dinner time.",
+          "It's night.",
+          "The day is ending.",
+          "It's late."
+        ],
+        "responses": [
+            "Let's make eggplant parmesan: https://www.loveandlemons.com/eggplant-parmesan/",
+            "My favorite is singapore noodles: https://thewoksoflife.com/singapore-noodles-mei-fun/",
+            "Who can resist muffins? Not me: https://cooking.nytimes.com/recipes/2868-jordan-marshs-blueberry-muffins",
+            "I love this recipe: https://www.delish.com/cooking/recipe-ideas/a49855/cauliflower-wings-recipe/",
+            "Lol! Don't cook, lets order UberEats!",
+            "Who doesn't like pumpkins: https://www.justonecookbook.com/kabocha-squash-soup/"
+        ]
+      },
+      {
+        "tag": "drink",
+        "patterns": [
+          "I'm thirsty.",
+          "I want a drink."
+        ],
+        "responses": [
+            "Go make some tea.",
+            "Drink some coffee.",
+            "Buy some Diet Coke",
+            "Drink some soda.",
+            "Drink some really sweet coffee.",
+            "Buy some kombucha.",
+            "Make a smoothie."
+        ]
+      },
+      {
+        "tag": "Eating out",
+        "patterns": [
+          "I want to eat out.",
+          "I want lunch.",
+          "I want something new.",
+          "I want dinner."
+        ],
+        "responses": [
+            "Go get some tsukemen.",
+            "Go get some ramen.",
+            "Go get some sushi.",
+            "You're always in the mood for curry.",
+            "Go try a new pizza place."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "I need a laugh.",
+          "I want a joke.",
+          "Tell me something funny.",
+          "I'm sad."
+        ],
+        "responses": [
+            "What has four wheels and flies? A garbage truck.",
+            "What did one traffic light say to the other? Stop looking, I'm changing.",
+            "If the internet had a boat, where would they park it? Google doc!",
+            "What do you call a fish with no eyes? A fsh",
+            "Did you hear about the guy who invented the knock-knock joke? He won the “no-bell” prize.",
+            "My wife told me to stop acting like a flamingo, so I had to put my foot down.",
+            "Why did the computer hate commuting to work? It had a hard drive."
+        ]
+      }
+    ]
+  }
